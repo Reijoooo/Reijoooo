@@ -19,8 +19,6 @@ jobs:
         with:
           token: ${{ secrets.ACTIONS }}
           filename: github-metrics.svg
-          plugin_skyline: yes
-          plugin_skyline_settings: my_custom_city
 
   full-year-calendar:
     runs-on: ubuntu-latest
