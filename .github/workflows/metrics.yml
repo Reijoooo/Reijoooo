@@ -38,3 +38,21 @@ jobs:
           plugin_isocalendar_duration: full-year
           plugin_skyline: yes
           plugin_skyline_settings: my_custom_city
+
+  achievements:
+    runs-on: ubuntu-latest
+    environment:
+      name: production
+    permissions:
+      contents: write
+    steps:
+      - uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.plugin.achievements.svg
+          token: ${{ secrets.ACTIONS }}
+          base: ""
+          plugin_achievements: yes
+          plugin_achievements_only: >-
+            polyglot, stargazer, sponsor, deployer, member, maintainer, developer,
+            scripter, packager, explorer, infographile, manager
+          plugin_achievements_threshold: X
