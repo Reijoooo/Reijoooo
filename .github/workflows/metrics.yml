@@ -34,8 +34,6 @@ jobs:
           base: ""
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
-          plugin_skyline: yes
-          plugin_skyline_settings: my_custom_city
 
   achievements:
     runs-on: ubuntu-latest
