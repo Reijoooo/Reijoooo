@@ -1,2 +1,2 @@
-![Metrics](/metric_city.svg)
+![Metrics](/full-year-calendar.svg)
 ![Metrics](/github-metrics.svg)

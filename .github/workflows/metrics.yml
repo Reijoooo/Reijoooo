@@ -17,3 +17,16 @@ jobs:
       - uses: lowlighter/metrics@latest
         with:
           token: ${{ secrets.ACTIONS }}
+  full-year-calendar:
+    runs-on: ubuntu-latest
+    environment:
+      name: production
+    permissions:
+      contents: write
+    steps:
+      - uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          base: ""
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: full-year
