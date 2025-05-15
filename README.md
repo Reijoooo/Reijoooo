@@ -29,13 +29,13 @@
   <!-- Счетчик дней и трофеи -->
   <a href="https://git.io/streak-stats">
     <img
-      src="https://github-readme-streak-stats.herokuapp.com/?user=Reijoooo"
+      src="https://github-readme-streak-stats.herokuapp.com?user=Reijoooo&theme=omni&hide_border=true&date_format=j%20M%5B%20Y%5D&mode=weekly"
       alt="GitHub Streak"
     />
   </a>
   <a href="https://github.com/Reijoooo/github-profile-trophy">
     <img
-      src="https://github-profile-trophy.vercel.app/?username=Reijoooo"
+      src="https://github-profile-trophy.vercel.app/?username=Reijoooo&theme=dracula&column=3&margin-w=15&margin-h=15&no-frame=true&no-bg=true"
       alt="Trophy"
     />
   </a>
